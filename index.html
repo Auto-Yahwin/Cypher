@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h4 style="text-align: center">CEASER CYPHER</h4>
+  <h6 id="rot" style="text-align: center; margin-top:-15px">ROT(N)</h6>
+  
+    <input type="number" placeholder="Input Key" id="this">
+  
+    <input type="text" placeholder="Input Message" id="field">
+    <button onclick="rot()" id="para">Decode</button>
+ 
+ <div class="div1"><u>
+   <p><b>Decoded Message:</b></p></u>
+   <p id="info"></p>
+ </div>
+ 
+ <div class="field">
+ <div class="division">
+    <button onclick="func1()" class="styled" id="style1">+</button><em>What Is a Cypher?</em></div>
+    <div id="subset1" class="subset">
+      <p>A Cypher is an encrypted word .</p>
+    </div>
+ 
+ <div class="division">
+    <button onclick="func2()" class="styled">+</button><em>How does this work?</em></div>
+    <div id="subset2" class="subset">
+      <p>The Application takes in characters and replaces them with another character that is at a certain distance on the alphabeth. Non alphanumeric characters remain unaffected.</p>
+    </div>
+
+ <div class="division">
+    <button onclick="func3()" class="styled">+</button><em>Sample Cyphers</em></div>
+    <div id="subset3" class="subset">
+      <p>Below are example of words encoded with ROT-3<ul>
+        <li>ABCD!! ____  DEFG!!</li>
+        <li>MY NAME IS... ____  PB QDPH LV...</li>
+        <li>I LOVE 1234 ____  L ORYH 1234</li>
+      </ul>
+      *JHO JXUC EKJ!!••••ROT-16</p>
+    </div>
+ 
+ <div class="division">
+    <button onclick="func4()" class="styled">+</button><em>Similar Projects</em></div>
+    <div id="subset4" class="subset">
+      <p>bdhbjKhsvvv bmxkkgaffacvz hjnavs.hshvsbvshshzb</p>
+    </div>
+ 
+ <div class="division" id="idea">
+    <button onclick="func5()" class="styled">+</button><em>Contact Developer</em></div>
+    <div id="subset5" class="subset">
+      <p>bzhxudbsnn hijavsusidjd huahs his hgsgsushsgsh h Yb vshs</p>
+    </div>
+ </div>
+ 
+ <footer>
+ Developed by <a href="https://wa.me/+2349071250750?text=Hello!%20I%20Saw%20Your%20Project">Auto-Yahwin</a>
+ </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+  background-color: rgba(120, 180, 240, 0.5);
+  margin: 0px;
+  padding: auto;
+}
+
+h4{
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+input{
+  min-height: 20px;
+  width: 95vw;
+  margin: 3px 0px 0px 5px;
+  border-color: darkblue;
+  border-width: 1.5px;
+}
+
+#para{
+  float: right;
+  background-color: rgba(25, 25, 25, 0.8);
+  color: white;
+  margin: 2px 5px 10px 0;
+  box-shadow: -1.5px -1.5px 1px white;
+  border-radius: 2px;
+}
+
+#para:hover{
+  background-color: darkblue;
+  height: 25px;
+  cursor: pointer;
+  
+}
+
+.div1{
+  background-color: rgba(25, 25, 25, 0.4);
+  min-height: 150px;
+  margin: 40px 5px 10px 5px;
+  padding-top: 2px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.styled{
+  width: 22px;
+  height: 22px;
+  margin-right: 4px;
+  border: solid blue;
+  border-width: 0.85px;
+  box-shadow: 1px 1px 0px black;
+  border-radius: 2px;
+}
+
+.styled:hover{
+  background-color: silver;
+  color: red;
+  cursor: pointer;
+  box-shadow: 1px 1px 0px blue;
+}
+
+.styled:active{
+  background-color: silver;
+  color: red;
+  cursor: pointer;
+}
+
+
+.subset{
+  display: none;
+  margin: -15px 0px -2px 20px;
+  padding: 0px 2px 0px 15px;
+  border-left: solid black;
+}
+
+.division{
+  display: flex;
+  margin: 2px 0px 2px 0px;
+}
+
+.field{
+  padding: 5px 0 5px 10px;
+  margin: 0px 5px 10px 5px;
+  border-left: solid black;
+  border-top: solid black;
+  border-width: 1px;
+}
+
+footer{
+  background-color: rgba(25, 25, 25, 0.8);
+  color: white;
+  text-align: center;
+  height: 20px;
+  margin: 10px 0px 0px 0px;
+  width: 100vw;
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+a{
+  color: white;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+ /* margin: 0px;*/
+}
+
+em{
+  text-decoration: bold;
+  font-weight: 1000px;
+}
